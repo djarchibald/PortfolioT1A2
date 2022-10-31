@@ -7,16 +7,21 @@ header{
     background-color: #3b6064;
     display: flex;
     
-
-    
 }
 
 header h1{
     font-family: 'Megrim', cursive;
     color: #c9e4ca;
     font-weight: lighter;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 
+}
+
+header h1 a{
+    text-decoration: none;
+    color:#c9e4ca;
+    
+    
 }
 
 .nav-items{
@@ -80,4 +85,8 @@ footer{
 .contact-info a{
     color:#c9e4ca;
     text-decoration: underline;
+}
+
+a:visited{
+    color:#c9e4ca;
 }
