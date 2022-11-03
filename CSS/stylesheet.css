@@ -148,16 +148,6 @@ a:visited{
  }
      /*ABOUT PAGE */
 
-.about-me{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
-    font-size: xx-large;
-    color: #364958;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .about-page{
     display: flex;
     justify-content: center;
