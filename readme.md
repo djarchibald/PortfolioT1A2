@@ -34,3 +34,20 @@ Image by <a href="https://pixabay.com/users/fotoblend-87167/?utm_source=link-att
 
 https://pixabay.com/photos/cobweb-dew-dandelion-seed-web-6269254/ Free for commercial use
 No attribution required
+
+## Blog post image refs
+
+compass
+https://www.pexels.com/photo/compass-on-hand-3203659/ Photo by Bakr Magrabi
+
+What now
+https://www.pexels.com/photo/person-holding-a-cardboard-banner-with-what-now-written-on-it-5802888/ photo by Jeff Stapleton
+
+Laptop
+https://pixabay.com/photos/people-man-dark-night-sunset-2586889/ photo by Stocksnap
+
+forest
+https://pixabay.com/photos/nature-forest-frost-snowy-trees-2147400/ image by invisiblepower
+
+ocean
+https://pixabay.com/photos/ocean-sea-waves-dawn-dusk-1867285/ image by pexels from pixabay
