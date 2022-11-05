@@ -145,6 +145,11 @@ a:visited{
     width: 90%;
 }
 
+.landing-page-blurb a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #364958;
+}
+
 .signature{
     font-family: 'Qwitcher Grypen', cursive;
     color: #364958;
@@ -156,14 +161,37 @@ a:visited{
     width: 90%;
 }
 @media screen and (min-width: 750px) {
-    .landing-page-container{
+    /* .landing-page-container{
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 50px;
         margin-left: 100px;
-        margin-right: 100px;
+        margin-right: 100px; */
+        .landing-page img{
+            max-width: 700px;
+            
+        }
+    .welcome{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 50px;
+    }
 
+    .landing-page-blurb{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: larger;
+        width: 90%;
+    }
+
+    .signature{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 50px;
     }
 
 }
