@@ -102,28 +102,51 @@ a:visited{
     align-items: center;
     flex-direction: column;
         
-
 }
 
 .landing-page img{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 75%;
-    padding: 10px;
-    margin-top: 70px;
+    margin-top: 50px;
+    padding: 5px;
+    
 }
-.landing-page-text{
+.landing-page-container{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+    font-size: medium;
     font-weight:lighter;
     font-style: normal;
     color: #364958;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: fit-content;
 
 }
+
+.landing-page-blurb{
+
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.signature{
+    font-family: 'Qwitcher Grypen', cursive;
+    color: #364958;
+    font-size: 35px;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 75%;
+}
     
- .landing-page-blurb{
+ /* .landing-page-blurb{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
     font-weight: lighter;
@@ -134,16 +157,22 @@ a:visited{
     align-items: center;
     justify-content: center;
     margin: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 120px; */  
 
- }   
 
- @media screen and (min-width: 992px) {
-    
-    .landing-page img {
-        float: left;
-        
+ @media screen and (min-width: 750px) {
+    .landing-page-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        /* margin: 50px; */
+        max-width: ;
+        font-size: larger;
 
+    }
+    .landing-page img{
+        max-width: 700px;
     }
  }
      /*ABOUT PAGE */
@@ -187,6 +216,31 @@ a:visited{
     margin: 30px;
 
 }
+
+.about-me-blurb a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;;
+    font-weight: bolder;
+    color: #364958
+    
+}
+
+@media screen and (min-width: 750px) {
+    .about-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+    
+
+}
+
 
 /* contact page styling */
 
@@ -261,13 +315,14 @@ input[type=text], select, textarea {
         align-items: center;
         justify-content: space-around;
         width: 300px;
+        background-color: #f6fbf6;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #364958;
         font-size: medium;
         margin: 50px;
         border: solid 1px #364958;
         box-sizing: border-box;
-        box-shadow: 2px #364958;
+        
     }
 
     .blog-post a{
@@ -284,7 +339,6 @@ input[type=text], select, textarea {
 
         width: 200px;
         justify-content: center;
-        /* padding: 20px; */
         margin-top: 20px;
     }
 
@@ -300,7 +354,22 @@ input[type=text], select, textarea {
         color: #364958;
     }
 
-    .blog img{
-        object-fit: cover;
-
+    @media screen and (min-width: 750px) {
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        
     }
+        .blog-post{
+            width:400px;
+            height: 400px;
+            background-color:#f6fbf6;
+            box-shadow: 2px 2px gray;
+            
+        }
+
+        .blog-post img{
+            width: 300px;
+        }
+}
