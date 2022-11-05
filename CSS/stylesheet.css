@@ -95,37 +95,36 @@ a:visited{
 
 /* Landing page body styling */
 
-.landing-page{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-        
-}
-
-.landing-page img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-    margin-top: 50px;
-    padding: 5px;
-    
-}
 .landing-page-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
     font-weight:lighter;
     font-style: normal;
     color: #364958;
+        
+}
+
+.landing-page{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: fit-content;
+    align-items: center;
+}
 
+.landing-page img{
+    width: 75%;
+    margin-top: 50px;
+    padding: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .welcome{
@@ -135,7 +134,7 @@ a:visited{
     font-weight: lighter;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 90%;
 
 }
 
@@ -143,7 +142,7 @@ a:visited{
 
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 90%;
 }
 
 .signature{
@@ -154,38 +153,21 @@ a:visited{
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-    width: 75%;
+    width: 90%;
 }
-    
- /* .landing-page-blurb{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-    font-weight: lighter;
-    font-style: normal;
-    color: #364958;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
-    margin-bottom: 120px; */  
-
-
- @media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) {
     .landing-page-container{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px;
-        /* margin: 50px; */
-        max-width: ;
-        font-size: larger;
+        padding: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
 
     }
-    .landing-page img{
-        max-width: 700px;
-    }
- }
+
+}
+
      /*ABOUT PAGE */
 
 .about-page{
@@ -199,10 +181,8 @@ a:visited{
     width: 300px;
     padding: 10px;
     margin-top: 70px;
-    
-    
+       
 }
-
 .CV a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: norma;
@@ -247,8 +227,6 @@ a:visited{
         margin-right: 100px;
 
     }
-
-    
 
 }
 
@@ -304,19 +282,6 @@ input[type=text], select, textarea {
     color: #3b6064;
   }
 
-  /* columns */
-  /* .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  } */
-
-  /* @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    } */
 
     /* Blog page styling */
 
