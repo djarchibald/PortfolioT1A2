@@ -421,6 +421,10 @@ input[type=text], select, textarea {
         color: #364958;
     }
 
+    .blog img{
+        width: 300px;
+    }
+
     @media screen and (min-width: 834px) {
         .blog-container {
             display: flex;
