@@ -369,7 +369,7 @@ input[type=text], select, textarea {
   }
 @media screen and (min-width: 834px) {
     .contact-form{
-        min-height: 65vh;
+        min-height: 60vh;
         width: 100%;
 
     }
