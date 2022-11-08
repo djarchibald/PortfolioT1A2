@@ -211,7 +211,7 @@ a:visited{
         font-size: large;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: lighter;
-        min-height: 100vh;
+        min-height: 70vh;
         position: relative;
         
     }
@@ -309,7 +309,7 @@ a:visited{
         margin-right: 100px;
         margin-bottom: 1rem;
         font-size: larger;
-        min-height: 100vh;
+        min-height: 61vh;
 
     }
 
@@ -369,7 +369,7 @@ input[type=text], select, textarea {
   }
 @media screen and (min-width: 834px) {
     .contact-form{
-        min-height: 100vh;
+        min-height: 65vh;
         width: 100%;
 
     }
