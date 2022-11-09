@@ -1,12 +1,4 @@
 # Duncan Archibald Portfolio Website T1A2
-
-
-
--Wireframe
--CSS
--HTML
--git
--markdown  
 ## Links:
 #### Portfolio URL:
 https://fascinating-cucurucho-157b77.netlify.app/
@@ -16,18 +8,49 @@ https://github.com/djarchibald/PortfolioT1A2
 
 #### Presentation Video:
 
-## Description 
-My portfolio website is designed to present me as a web developer to prospective employers who may be looking to hire a junior developer. It provides users with detail about what I'm currently doing, the skills I have demonstrated in my career to-date and and will aquire during the bootcamp, as well as giving a brief introduction to me outside the professional setting. It allows users to conatc me either through the contact form or the links to my personal social media accounts (Linkedin, Instagram, Twitter and Github).  
+## Purpose
+Welcome to my portfolio website! It is designed to present me as a web developer to prospective employers or recruiters looking to hire a junior developer. The site provides users with an overview about my career to date, and account of my decision to change careers and transition into tech, as well as a brief overview of my interests outside work.  Using the links on the 'About' page and in the footer, users can access my CV and Linkedin account, both of which give a more in depth look at the transferable skills I have demonstrated in my career to-date and will in the future cover the technical skills I aquire during the bootcamp.  
 
-The site was built using HTML and vanilla CSS, and deployed using netlify via my github repo.
+As someone extremely new to coding - this site is my first start to finish build -  my overall approach to was to keep things relatively simple wherever possible, while still meeting the assignment objectives and criteria outlined in the marking rubric. The site is designed to evolve in line with my technical skills as they improve over time - it is my intent that it will become significantly more sophisticated over the course of the bootcamp, ultimately allowing me to credibly use it as a key part of my job search.
 
-As someone extremely new to coding - this site is my first start to finish build -  my overall approach to building the site was to keep things relatively simple wherever possible while still meeting the assignment objectives and criteria outlined in the marking rubric. The site is designed to evolve in line with my technical skills as they improve over time - it is my intent that the site will be significantly more sophisticated in roughly 6-8 months time, when I will use it as part of my job search.
+## Features & Functionality
 
-This approach imnformed the majority of decisions I took. From the outset I was keen that my website had a clean, uncluttered feeling, with intuitivve navigation and functionality. Accsesibility was also an important consideration for me, and and was largely behind my decision to use sans-serif style fonts throughout the website, as well as a high contrats colour-scheme (with the main body of pages consisteng of dark text on a light background, while headers and footers use light text on a drak background.)
+The 'keep it simple' approach informed the majority of decisions I took as I built the site. From the outset I was keen that my website had a clean, uncluttered look and feel, with intuitive navigation and functionality whether viewed on a phone, tablet or desktop sized device. 
 
+Accessibility was also an important consideration, including in my decision to use sans-serif style fonts throughout the website, as well as a reasonably high contrast colour-scheme which sees either dark text on light backgrounds or light text on dark backgrounds, both of which I hope will assist any users with dyslexia or sight issues. The site also features alt-text for all images used. 
+
+Critically, users are able to contact me through every page on the site - either connecting to my social media accounts (Instagram, Twitter, LinkedIn and github), using the contact form to send me a message, or by clicking on the mail or phone links in the footer.  
+
+As you can see in the sitemap below, my website consists of a home/landing page, about, blog and contact pages. From the blog page, users are able to access 5 example (and currently dummy) blog posts.
 
 #### Sitemap
-<img src="./images/2022-11-07-13-30-31.png" width =300>
+![graphical site map of portfolio website](images/2022-11-07-13-30-31.png)
+
+As mentioned above, all pages have a consistent header and footer. Aesthetically, I wanted to use these to reinforce to the user the sense of clean modern branding, allowing users to easily identify what website they're on. And in terms of utility, the header and footer enable users to navigate easily between pages and access the information they're looking for. Perhaps most importantly though, the header and footer allows users to contact me regardless of where they are on the website. As the main purpose of the site is ultimately to assist in getting me a job, I wanted to make it as easy as possible for users to connect with me whether through my social media accounts or the clickable mail and phone links. This means that a time poor user doesnt have to spend time navigating to the contact page if they decide they want to get in touch.
+
+The screenshot below shows a mobile phone view of the header, including clickable logo and links to other pages, and footer, with links to social media, as well as clickable phone and mail links:
+
+![screen shot of header and footer on mobile device](images/Header%20&%20Footer.jpeg)
+
+A further feature of the site is the contact form on the 'contact' page.  While at the moment there is no back-end behind the form enabling it to work, it will in the future allow users a simple way to send me their contact details and message, if they prefer this method of contact. As you can see in the screenshot below, the form also fits the overall look of the site, matching the color scheme and generally maintaing the simple, uncluttered feel.
+
+![screenshot of contact form on mobile phone](images/contact%20form.jpeg)
+
+In line with the assignment rubric, my site is responsive. The screenshots below show the difference in the landing page at mobile and desktop views. 
+
+![desktop view of portfolio home page](images/desktop%20view.png)
+
+![mobile view of portfolio home page](images/mobile%20view.jpeg)
+
+## Tech Stack
+The site was built using HTML and vanilla CSS, and deployed using netlify via my github repo.
+
+
+
+
+
+
+
 
 
 
