@@ -24,7 +24,7 @@ Critically, users are able to contact me through every page on the site - either
 As you can see in the sitemap below, my website consists of a home/landing page, about, blog and contact pages. From the blog page, users are able to access 5 example (and currently dummy) blog posts.
 
 #### Sitemap
-![graphical site map of portfolio website](images/2022-11-07-13-30-31.png)
+![graphical site map of portfolio website](images/sitemap.png)
 
 As mentioned above, all pages have a consistent header and footer. Aesthetically, I wanted to use these to reinforce to the user the sense of clean modern branding, allowing users to easily identify what website they're on. And in terms of utility, the header and footer enable users to navigate easily between pages and access the information they're looking for. Perhaps most importantly though, the header and footer allows users to contact me regardless of where they are on the website. As the main purpose of the site is ultimately to assist in getting me a job, I wanted to make it as easy as possible for users to connect with me whether through my social media accounts or the clickable mail and phone links. This means that a time poor user doesnt have to spend time navigating to the contact page if they decide they want to get in touch.
 
