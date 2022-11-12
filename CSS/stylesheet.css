@@ -1,4 +1,4 @@
-/* Main Body of page */
+/* Homepage Styling */
 body{
     background-color: #edf5ed;
     margin: 0;
@@ -201,7 +201,7 @@ footer{
 }
 
  /*ABOUT PAGE */
-
+/* 
 .about-page{
     display: flex;
     justify-content: center;
@@ -249,7 +249,7 @@ footer{
     
 }
 /* About Page Media Query */
-@media screen and (min-width: 834px) {
+/* @media screen and (min-width: 834px) {
     .about-container{
         display: flex;
         align-items: center;
@@ -262,12 +262,12 @@ footer{
         min-height: 61vh;
     }
 
-}
+}  */
 
 
 /* Contact Page styling */
 
-.contact-form{
+/* .contact-form{
     margin-left: 30px;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -280,7 +280,7 @@ footer{
 }
 
 /* form inputs */
-input[type=text], select, textarea {
+/* input[type=text], select, textarea {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     padding: 12px;
@@ -317,17 +317,17 @@ input[type=text], select, textarea {
     color: #3b6064;
   }
   /* Contact page media query */
-@media screen and (min-width: 834px) {
+/* @media screen and (min-width: 834px) {
     .contact-form{
         min-height: 60vh;
         width: 100%;
     }
 
-}
+}  */ 
 
 /* Blog page styling */
 
-    .blog-post{
+    /* .blog-post{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -358,11 +358,11 @@ input[type=text], select, textarea {
         width: 200px;
         justify-content: center;
         margin-top: 20px;
-    }
+    } */
 
     /* individual blog post styling */
 
-    .blog{
+    /* .blog{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -374,10 +374,10 @@ input[type=text], select, textarea {
 
     .blog img{
         width: 300px;
-    }
+    } */
 /* Blog media query */
     
-@media screen and (min-width: 834px) {
+/* @media screen and (min-width: 834px) {
         .blog-container {
             display: flex;
             flex-wrap: wrap;
@@ -401,4 +401,4 @@ input[type=text], select, textarea {
         .blog img{
             width: 60%;
         }       
-}
+} */
