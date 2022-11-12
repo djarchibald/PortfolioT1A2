@@ -23,9 +23,7 @@ header h1{
 
 header h1 a{
     text-decoration: none;
-    color:#c9e4ca;
-    
-    
+    color:#c9e4ca;        
 }
 
 .nav-items{
@@ -46,6 +44,7 @@ header h1 a{
     font-weight: lighter;
     font-size: 1 rem;
 }
+
 /* Footer */
 footer{
     background-color: #3b6064;
@@ -80,6 +79,7 @@ footer{
     font-weight: lighter;
     font-size:xx-small
 }
+
 .contact-info p{
     margin: 5px;
 }
@@ -199,206 +199,3 @@ footer{
     }
 
 }
-
- /*ABOUT PAGE */
-/* 
-.about-page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.about-page img{
-
-    width: 300px;
-    padding: 10px;
-    margin-top: 70px;
-       
-}
-.CV a{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: normal;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #364958;
-    text-decoration: none;
-}
-
-.about-me-blurb{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-    font-weight: lighter;
-    font-style: normal;
-    color: #364958;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
-
-}
-
-.about-me-blurb a{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;;
-    font-weight: bolder;
-    color: #364958
-    
-}
-/* About Page Media Query */
-/* @media screen and (min-width: 834px) {
-    .about-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 50px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 1rem;
-        font-size: larger;
-        min-height: 61vh;
-    }
-
-}  */
-
-
-/* Contact Page styling */
-
-/* .contact-form{
-    margin-left: 30px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-/* form inputs */
-/* input[type=text], select, textarea {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #3b6064
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=email] {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #3b6064
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit] {
-    background-color:#3b6064;
-    color: #c9e4ca;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-    background-color: #364958;
-  }
-
-  label{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #3b6064;
-  }
-  /* Contact page media query */
-/* @media screen and (min-width: 834px) {
-    .contact-form{
-        min-height: 60vh;
-        width: 100%;
-    }
-
-}  */ 
-
-/* Blog page styling */
-
-    /* .blog-post{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 300px;
-        background-color: #f6fbf6;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #364958;
-        font-size: medium;
-        margin: 50px;
-        border: solid 1px #364958;
-        box-sizing: border-box;
-        
-    }
-
-    .blog-post a{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #364958;
-    }
-
-    .blog-post p{
-        opacity: 50%;
-        font-size: smaller;            
-    }
-
-    .blog-post img{
-
-        width: 200px;
-        justify-content: center;
-        margin-top: 20px;
-    } */
-
-    /* individual blog post styling */
-
-    /* .blog{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin: 50px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: lighter;
-        color: #364958;
-    }
-
-    .blog img{
-        width: 300px;
-    } */
-/* Blog media query */
-    
-/* @media screen and (min-width: 834px) {
-        .blog-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-            
-        footer {
-            position: relative;
-            bottom:0;
-            width: 100%;
-            }
-    
-
-         .blog-post{
-            width:400px;
-            height: 400px;
-            background-color:#f6fbf6;
-            box-shadow: 2px 2px gray;            
-        }
-
-        .blog img{
-            width: 60%;
-        }       
-} */
