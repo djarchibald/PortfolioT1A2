@@ -45,7 +45,7 @@ In line with the assignment rubric, my site is responsive. The screenshots below
 
 The blog page is a further example of the media queries in action. You can see in the screenshots below that in the desktop view, the blogs are rearranged compared to the single column on a mobile device:
 
-![mobile view of blog page](images/blog%20mobile.jpeg) . 
+![mobile view of blog page](images/blog%20mobile.jpeg) 
 
 
 ![desktop view of blog page](images/blog%20-%20desktop.jpeg)
