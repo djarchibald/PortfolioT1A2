@@ -56,7 +56,7 @@ The site was built using HTML and vanilla CSS, and deployed using netlify from m
 As above, thre target audience for the site is prospective employers or recruiters looking to hire a junior developer.
 
 ## Wireframes/Mock-Ups
-Never having used Figma or anything similar before I found it an incredibly useful step int he process. Without a set idea in mind when I first considered what my site would look like, I found using the mock-ups helped me focus on things that really needed to be included, and not spend time worrying about any nice-to-haves. It also allowed me to assess quickly how best to lay the site out in line with my aspriation for a clean, uncluttered site. Screenshots of mobile, tablet and desktop views below:  
+Never having used Figma or anything similar before I found it an incredibly useful step in the process. Without a set idea in mind when I first considered what my site would look like, I found using the mock-ups helped me focus on things that really needed to be included, and not spend time worrying about any nice-to-haves. It also allowed me to assess quickly how best to lay the site out in line with my aspriation for a clean, uncluttered site. Screenshots of mobile, tablet and desktop views below:  
 
 **Mobile**
 ![wireframe of mobile layout](images/mobile%20wireframe.png) 
