@@ -1,8 +1,10 @@
+/* Main Body of page */
 body{
     background-color: #edf5ed;
     margin: 0;
 }
 
+/* Header */
 header{
     background-color: #3b6064;
     display: flex;
@@ -44,25 +46,20 @@ header h1 a{
     font-weight: lighter;
     font-size: 1 rem;
 }
-
+/* Footer */
 footer{
     background-color: #3b6064;
     display: flex;
     flex-direction: column;
     padding-top: 15px;
     padding-bottom: 10px;
-    margin-top: 5px;
-    
-
-    
-
+    margin-top: 5px;    
 }
 
 .social-media{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .social-media img{
@@ -82,8 +79,6 @@ footer{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     font-size:xx-small
-
-
 }
 .contact-info p{
     margin: 5px;
@@ -94,11 +89,7 @@ footer{
     text-decoration: underline;
 }
 
-a:visited{
-    color:#c9e4ca;
-}
-
-/* Landing page body styling */
+/* Homepage main body styling */
 
 .landing-page{
     display: flex;
@@ -107,26 +98,10 @@ a:visited{
     flex-direction: column; 
 }
 
-/* .landing-page-container{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-    font-weight:lighter;
-    font-style: normal;
-    color: #364958;
-        
-} */
-
 .landing-page img{
     width: 350px;
     padding: 10px;
-    margin-top: 50px;
-    
-    
+    margin-top: 50px;        
 }
 
 .landing-page h5{
@@ -136,20 +111,8 @@ a:visited{
     font-style: normal;
     font-size: larger;
     margin-top: 0;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;    
 }
-
-/* .welcome{
-    font-family: 'Qwitcher Grypen', cursive;
-    color: #364958;
-    font-size: 35px;
-    font-weight: lighter;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-
-} */
 
 .landing-page-blurb{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -171,6 +134,7 @@ a:visited{
     text-decoration: underline;
     font-weight: bolder;
 }
+
 .landing-page-blurb h5{
     font-family: 'Qwitcher Grypen', cursive; 
     color: #364958;
@@ -179,7 +143,6 @@ a:visited{
     justify-content: center;
     align-items: center;
     margin-top: 0;
-
 }
 
 .landing-page-blurb h6{
@@ -190,6 +153,7 @@ a:visited{
     padding: 5px;
     margin: 0;
 }
+
 .signature{
     font-family: 'Qwitcher Grypen', cursive;
     color: #364958;
@@ -200,6 +164,7 @@ a:visited{
     margin-bottom: 50px;
     margin-left: 30px;
 }
+/* Homepage media query */
 @media screen and (min-width: 834px){
     .landing-page-container{
         display: flex;
@@ -212,27 +177,19 @@ a:visited{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: lighter;
         min-height: 70vh;
-        position: relative;
-        
+        position: relative;    
     }
+
     .landing-page img{
         width: 375px;
-        margin: 0;
-            
-        }
-     /* .welcome{
-        display: none;
-        flex-wrap: wrap;
-        align-items: center;
-        font-size: 50px;
-    } */
-
+        margin: 0;        
+    }
+    
     .landing-page-blurb{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        font-size: large;
-        
+        font-size: large;    
     }
 
     footer{
@@ -241,16 +198,9 @@ a:visited{
         width: 100%;
     }
 
-    /* .signature{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        font-size: 50px;
-    } */
-
 }
 
-     /*ABOUT PAGE */
+ /*ABOUT PAGE */
 
 .about-page{
     display: flex;
@@ -298,7 +248,7 @@ a:visited{
     color: #364958
     
 }
-
+/* About Page Media Query */
 @media screen and (min-width: 834px) {
     .about-container{
         display: flex;
@@ -310,13 +260,12 @@ a:visited{
         margin-bottom: 1rem;
         font-size: larger;
         min-height: 61vh;
-
     }
 
 }
 
 
-/* contact page styling */
+/* Contact Page styling */
 
 .contact-form{
     margin-left: 30px;
@@ -330,7 +279,7 @@ a:visited{
 
 }
 
-/* inputs */
+/* form inputs */
 input[type=text], select, textarea {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
@@ -367,15 +316,16 @@ input[type=text], select, textarea {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #3b6064;
   }
+  /* Contact page media query */
 @media screen and (min-width: 834px) {
     .contact-form{
         min-height: 60vh;
         width: 100%;
-
     }
+
 }
 
-    /* Blog page styling */
+/* Blog page styling */
 
     .blog-post{
         display: flex;
@@ -400,9 +350,7 @@ input[type=text], select, textarea {
 
     .blog-post p{
         opacity: 50%;
-        font-size: smaller;
-        
-        
+        font-size: smaller;            
     }
 
     .blog-post img{
@@ -427,8 +375,9 @@ input[type=text], select, textarea {
     .blog img{
         width: 300px;
     }
-
-    @media screen and (min-width: 834px) {
+/* Blog media query */
+    
+@media screen and (min-width: 834px) {
         .blog-container {
             display: flex;
             flex-wrap: wrap;
@@ -446,14 +395,10 @@ input[type=text], select, textarea {
             width:400px;
             height: 400px;
             background-color:#f6fbf6;
-            box-shadow: 2px 2px gray;
-            
+            box-shadow: 2px 2px gray;            
         }
 
         .blog img{
             width: 60%;
-        }
-
-
-       
+        }       
 }
